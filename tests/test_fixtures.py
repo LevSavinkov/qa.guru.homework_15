@@ -1,7 +1,7 @@
 """
 Сделайте разные фикстуры для каждого теста, которые выставят размеры окна браузера
 """
-from selene import browser, be
+from selene import browser
 
 from src.pages.github import GithubPage
 
