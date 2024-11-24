@@ -2,7 +2,7 @@
 Переопределите параметр с помощью indirect параметризации на уровне теста
 """
 import pytest
-from selene import browser, be
+from selene import browser
 
 from src.pages.github import GithubPage
 
