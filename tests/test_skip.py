@@ -2,7 +2,7 @@
 Параметризуйте фикстуру несколькими вариантами размеров окна
 Пропустите мобильный тест, если соотношение сторон десктопное (и наоборот)
 """
-from selene import browser, be
+from selene import browser
 import pytest
 
 from src.pages.github import GithubPage
